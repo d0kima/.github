@@ -1,0 +1,17 @@
+name: DevOps
+description: Report a DevOps issue or request for the project
+type: DevOps
+projects: ["d0kima/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **DevOps Issue/Request**
+        A clear and concise description of the DevOps issue or request.
+
+  - type: input
+    id: devops-details
+    attributes:
+      label: DevOps Details
+      description: Provide any additional details or requirements for the DevOps issue or request.
+      placeholder: Provide any additional details or requirements for the DevOps issue or request.

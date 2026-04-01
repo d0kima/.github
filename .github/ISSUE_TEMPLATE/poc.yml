@@ -1,0 +1,17 @@
+name: PoC
+description: Propose a Proof of Concept (PoC) for the project
+type: PoC
+projects: ["d0kima/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **PoC Description**
+        A clear and concise description of the Proof of Concept (PoC) you would like to propose.
+
+  - type: input
+    id: poc-details
+    attributes:
+      label: PoC Details
+      description: Provide any additional details or requirements for the PoC.
+      placeholder: Provide any additional details or requirements for the PoC.

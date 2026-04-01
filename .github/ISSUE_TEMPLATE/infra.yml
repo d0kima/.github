@@ -1,0 +1,17 @@
+name: Infra
+description: Report an infrastructure issue or request for the project
+type: Infra
+projects: ["d0kima/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Infrastructure Issue/Request**
+        A clear and concise description of the infrastructure issue or request.
+
+  - type: input
+    id: infra-details
+    attributes:
+      label: Infrastructure Details
+      description: Provide any additional details or requirements for the infrastructure issue or request.
+      placeholder: Provide any additional details or requirements for the infrastructure issue or request.

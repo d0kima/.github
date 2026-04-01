@@ -1,0 +1,17 @@
+name: Feature
+description: Propose a new feature for the project
+type: Feature
+projects: ["d0kima/1"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Feature Description**
+        A clear and concise description of the feature you would like to see implemented.
+
+  - type: input
+    id: feature-details
+    attributes:
+      label: Feature Details
+      description: Provide any additional details or requirements for the feature.
+      placeholder: Provide any additional details or requirements for the feature.
